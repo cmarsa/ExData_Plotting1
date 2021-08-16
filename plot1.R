@@ -4,7 +4,7 @@ library(tidyverse)
 library(lubridate)
 
 # read data
-power_consumption <- read_delim('household_power_consumption.txt', delim = ';', skip = 0)
+power_consumption <- read_delim('data/household_power_consumption.txt', delim = ';', skip = 0)
 
 # change date format
 power_consumption <- power_consumption |>
